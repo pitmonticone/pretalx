@@ -3,7 +3,7 @@
 Maintenance
 ===========
 
-Once you have installed pretalx, you’ll start thinking about maintaining your
+Once you have installed pretalx, you'll start thinking about maintaining your
 installation. The following guide assumes that you perform general system
 maintenance and monitoring. So please: keep your servers up to date on security
 updates. Keep all non-public ports closed. Follow best practices.

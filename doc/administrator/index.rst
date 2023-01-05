@@ -3,7 +3,7 @@
 Administrator documentation
 ===========================
 
-You want to install pretalx on your own server? That’s great! We have
+You want to install pretalx on your own server? That's great! We have
 documentation for a standard installation using pip in an unprivileged local
 user account.
 

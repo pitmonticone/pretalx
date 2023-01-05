@@ -84,7 +84,7 @@ of pip-licenses_.
 JavaScript dependencies
 =======================
 
-pretalx uses a couple of JavaScript libraries aswell.
+pretalx uses a couple of JavaScript libraries as well.
 
 +----------------------------+------------------------------------------------------------------------------------+------------------------------------------------------------+
 | Name                       | License                                                                            | URL                                                        |

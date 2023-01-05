@@ -47,7 +47,7 @@ Release Notes
 - :feature:`1301` Following a confirmation link to a proposal you don't have access to now shows a helpful page prompting you to double-check your account is correct. Anonymous users will be directed to log in first.
 - :feature:`-` When you sort the review dashboard by number of reviews, it will now only use real reviews, not abstentions. The number of reviews including abstentions will be shown in parentheses.
 - :bug:`1307` Availability times provided while confirming a proposal were not saved.
-- :feature:`819` You can now turn off co-speakers – organsiers can still assign additional speakers, but speakers themselves will not be asked for additional speakers.
+- :feature:`819` You can now turn off co-speakers – organisers can still assign additional speakers, but speakers themselves will not be asked for additional speakers.
 - :support:`-` Note to administrators of self-hosted instances: documentation for installation and upgrades now recommends that you use ``pip install --upgrade-strategy eager`` to make sure you get non-pinned bugfix updates.
 - :feature:`-` Organisers can see speaker email addresses in embedded API paths.
 - :feature:`-` Proposal attachments can be included in exports now.
@@ -87,7 +87,7 @@ Release Notes
 - :feature:`-` Reviewer team settings (like track assignments) are now on the same page as the general team settings, and will be shown only if the team is currently a reviewer team.
 - :feature:`619` Reviewers can now be assigned to proposals directly. Depending on your settings, reviewers can only see their assigned proposals, or will just see them highlighted.
 - :feature:`-` Caching of schedule pages is reset the moment a new schedule version is released, so that integrations (for example with Venueless) that push notifications on new schedule releases will always see the actual new schedule.
-- :feature:`-` Schedule pages showing the WIP schedule to organsiers aren't cached anymore, so all changes show up immediately.
+- :feature:`-` Schedule pages showing the WIP schedule to organisers aren't cached anymore, so all changes show up immediately.
 - :feature:`1261` Automatic confirmation emails of received proposals are now also shown in the list of a user's emails, since the absence was confusing for organisers and speakers.
 - :bug:`1260` It was possible to change teams so that they had access to no events – neither via the explicit list, nor via the "all events" flag, which was extremely confusing.
 - :bug:`1259` The organiser dashboard included deleted proposals in the count on the event overview.
@@ -203,7 +203,7 @@ Release Notes
 - :support:`-` The essentially unused override score feature has been removed.
 - :feature:`-` Reviewers can now be asked to rate a proposal in several categories, with a total score calculated automatically.
 - :support:`-` Pretalx has a new schedule, with a new widget. The old widget is deprecated and will be removed in the next release. Please migrate all of your widgets to the new widget code. You can generate it in your event's settings. Administrators: remember to check your access logs before upgrading to v2.1 to warn users about failing widgets.
-- :feature:`-` There are two new API endpoints, ``/questions/`` and ``/answers/``, that incientally are our first writable API endpoints. The API docs have been updated.
+- :feature:`-` There are two new API endpoints, ``/questions/`` and ``/answers/``, that incidentally are our first writable API endpoints. The API docs have been updated.
 - :support:`-` Email error reporting (sent to instance administrators) now includes a short explanation and a link to the pretalx issue tracker.
 - :feature:`-` If a speaker has selected to show their gravatar, it is now also exposed in the API in the avatar field.
 - :feature:`-` When you send out reminders about unanswered questions, you can now target specific questions, or tracks, or submission types.
